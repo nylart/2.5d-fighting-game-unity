@@ -1,0 +1,781 @@
+fileFormatVersion: 2
+guid: 2f46508417a350b41a0f93c62c048ebf
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: doghead:joint10
+    100004: doghead:joint15
+    100006: doghead:joint15 1
+    100008: doghead:joint20
+    100010: doghead:joint20 1
+    100012: doghead:joint23
+    100014: doghead:joint24
+    100016: doghead:joint24 1
+    100018: doghead:joint25
+    100020: doghead:joint25 1
+    100022: doghead:joint26
+    100024: doghead:joint7
+    100026: doghead:joint8
+    100028: doghead:joint9
+    100030: doghead:L_Arm_Joint_1
+    100032: doghead:L_Arm_Joint_2
+    100034: doghead:L_Arm_Joint_3
+    100036: doghead:L_Arm_Joint_4
+    100038: doghead:L_Leg_Joint_1
+    100040: doghead:L_Leg_Joint_2
+    100042: doghead:L_Leg_Joint_3
+    100044: doghead:L_Leg_Joint_4
+    100046: doghead:R_Arm_Joint_1
+    100048: doghead:R_Arm_Joint_2
+    100050: doghead:R_Arm_Joint_3
+    100052: doghead:R_Arm_Joint_4
+    100054: doghead:R_Leg_Joint_1
+    100056: doghead:R_Leg_Joint_2
+    100058: doghead:R_Leg_Joint_3
+    100060: doghead:R_Leg_Joint_4
+    100062: doghead:SMOOTH1
+    100064: doghead:Spine_1
+    100066: doghead:Spine_2
+    100068: doghead:Spine_4
+    100070: doghead:Spine_5
+    100072: doghead:Spine_6
+    100074: doghead:Spine_7
+    400000: //RootNode
+    400002: doghead:joint10
+    400004: doghead:joint15
+    400006: doghead:joint15 1
+    400008: doghead:joint20
+    400010: doghead:joint20 1
+    400012: doghead:joint23
+    400014: doghead:joint24
+    400016: doghead:joint24 1
+    400018: doghead:joint25
+    400020: doghead:joint25 1
+    400022: doghead:joint26
+    400024: doghead:joint7
+    400026: doghead:joint8
+    400028: doghead:joint9
+    400030: doghead:L_Arm_Joint_1
+    400032: doghead:L_Arm_Joint_2
+    400034: doghead:L_Arm_Joint_3
+    400036: doghead:L_Arm_Joint_4
+    400038: doghead:L_Leg_Joint_1
+    400040: doghead:L_Leg_Joint_2
+    400042: doghead:L_Leg_Joint_3
+    400044: doghead:L_Leg_Joint_4
+    400046: doghead:R_Arm_Joint_1
+    400048: doghead:R_Arm_Joint_2
+    400050: doghead:R_Arm_Joint_3
+    400052: doghead:R_Arm_Joint_4
+    400054: doghead:R_Leg_Joint_1
+    400056: doghead:R_Leg_Joint_2
+    400058: doghead:R_Leg_Joint_3
+    400060: doghead:R_Leg_Joint_4
+    400062: doghead:SMOOTH1
+    400064: doghead:Spine_1
+    400066: doghead:Spine_2
+    400068: doghead:Spine_4
+    400070: doghead:Spine_5
+    400072: doghead:Spine_6
+    400074: doghead:Spine_7
+    4300000: doghead:SMOOTH1
+    7400000: Take 001
+    7400002: CerberusIdle
+    7400004: CerberusRunning
+    7400006: CerberusFlinch
+    7400008: CerberusPawAttack
+    7400010: CerberusJump
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: doghead:SMOOTH1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doghead:joint7
+        weight: 1
+      - path: doghead:joint7/doghead:joint8
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9/doghead:joint10
+        weight: 1
+      - path: doghead:L_Arm_Joint_1
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4/doghead:joint20
+        weight: 1
+      - path: doghead:L_Leg_Joint_1
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4/doghead:joint15
+        weight: 1
+      - path: doghead:R_Arm_Joint_1
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4/doghead:joint20
+          1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4/doghead:joint15
+          1
+        weight: 1
+      - path: doghead:SMOOTH1
+        weight: 1
+      - path: doghead:Spine_1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24/doghead:joint25
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1/doghead:joint25 1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:Spine_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CerberusIdle
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doghead:joint7
+        weight: 1
+      - path: doghead:joint7/doghead:joint8
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9/doghead:joint10
+        weight: 1
+      - path: doghead:L_Arm_Joint_1
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4/doghead:joint20
+        weight: 1
+      - path: doghead:L_Leg_Joint_1
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4/doghead:joint15
+        weight: 1
+      - path: doghead:R_Arm_Joint_1
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4/doghead:joint20
+          1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4/doghead:joint15
+          1
+        weight: 1
+      - path: doghead:SMOOTH1
+        weight: 1
+      - path: doghead:Spine_1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24/doghead:joint25
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1/doghead:joint25 1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:Spine_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CerberusRunning
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doghead:joint7
+        weight: 1
+      - path: doghead:joint7/doghead:joint8
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9/doghead:joint10
+        weight: 1
+      - path: doghead:L_Arm_Joint_1
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4/doghead:joint20
+        weight: 1
+      - path: doghead:L_Leg_Joint_1
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4/doghead:joint15
+        weight: 1
+      - path: doghead:R_Arm_Joint_1
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4/doghead:joint20
+          1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4/doghead:joint15
+          1
+        weight: 1
+      - path: doghead:SMOOTH1
+        weight: 1
+      - path: doghead:Spine_1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24/doghead:joint25
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1/doghead:joint25 1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:Spine_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CerberusFlinch
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doghead:joint7
+        weight: 1
+      - path: doghead:joint7/doghead:joint8
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9/doghead:joint10
+        weight: 1
+      - path: doghead:L_Arm_Joint_1
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4/doghead:joint20
+        weight: 1
+      - path: doghead:L_Leg_Joint_1
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4/doghead:joint15
+        weight: 1
+      - path: doghead:R_Arm_Joint_1
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4/doghead:joint20
+          1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4/doghead:joint15
+          1
+        weight: 1
+      - path: doghead:SMOOTH1
+        weight: 1
+      - path: doghead:Spine_1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24/doghead:joint25
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1/doghead:joint25 1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:Spine_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CerberusPawAttack
+      takeName: Take 001
+      firstFrame: 600
+      lastFrame: 660
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doghead:joint7
+        weight: 1
+      - path: doghead:joint7/doghead:joint8
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9/doghead:joint10
+        weight: 1
+      - path: doghead:L_Arm_Joint_1
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4/doghead:joint20
+        weight: 1
+      - path: doghead:L_Leg_Joint_1
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4/doghead:joint15
+        weight: 1
+      - path: doghead:R_Arm_Joint_1
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4/doghead:joint20
+          1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4/doghead:joint15
+          1
+        weight: 1
+      - path: doghead:SMOOTH1
+        weight: 1
+      - path: doghead:Spine_1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24/doghead:joint25
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1/doghead:joint25 1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:Spine_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CerberusJump
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doghead:joint7
+        weight: 1
+      - path: doghead:joint7/doghead:joint8
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9
+        weight: 1
+      - path: doghead:joint7/doghead:joint8/doghead:joint9/doghead:joint10
+        weight: 1
+      - path: doghead:L_Arm_Joint_1
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4
+        weight: 1
+      - path: doghead:L_Arm_Joint_1/doghead:L_Arm_Joint_2/doghead:L_Arm_Joint_3/doghead:L_Arm_Joint_4/doghead:joint20
+        weight: 1
+      - path: doghead:L_Leg_Joint_1
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4
+        weight: 1
+      - path: doghead:L_Leg_Joint_1/doghead:L_Leg_Joint_2/doghead:L_Leg_Joint_3/doghead:L_Leg_Joint_4/doghead:joint15
+        weight: 1
+      - path: doghead:R_Arm_Joint_1
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4
+        weight: 1
+      - path: doghead:R_Arm_Joint_1/doghead:R_Arm_Joint_2/doghead:R_Arm_Joint_3/doghead:R_Arm_Joint_4/doghead:joint20
+          1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4
+        weight: 1
+      - path: doghead:R_Leg_Joint_1/doghead:R_Leg_Joint_2/doghead:R_Leg_Joint_3/doghead:R_Leg_Joint_4/doghead:joint15
+          1
+        weight: 1
+      - path: doghead:SMOOTH1
+        weight: 1
+      - path: doghead:Spine_1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint23/doghead:joint24/doghead:joint25
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:joint26/doghead:joint24
+          1/doghead:joint25 1
+        weight: 1
+      - path: doghead:Spine_1/doghead:Spine_2/doghead:Spine_4/doghead:Spine_5/doghead:Spine_6/doghead:Spine_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

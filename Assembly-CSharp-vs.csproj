@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{AEA7F876-136E-5CFB-1B06-1103F1CACFEE}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_1;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity4.5.1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity4.5.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Common\DestroyOnContact.cs" />
+     <Compile Include="Assets\Scripts\Common\LookAt.cs" />
+     <Compile Include="Assets\Scripts\Common\Orbit.cs" />
+     <Compile Include="Assets\Scripts\Common\SelfDestruct.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AI\AIDeath.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AI\AIInit.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AI\AIPhase1.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AI\AIPhase2.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AI\AIPhase3.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AI\AIStart.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AI\AIWin.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AI\BossAIController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Base_NPCController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\EnemyProjectile.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Health.cs" />
+     <Compile Include="Assets\Scripts\Controllers\MeleeController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerProjectile.cs" />
+     <Compile Include="Assets\Scripts\Controllers\SimplePatroller.cs" />
+     <Compile Include="Assets\Scripts\Controllers\SpawnAtLocations.cs" />
+     <Compile Include="Assets\Scripts\Controllers\SpawnOnTriggerCollision.cs" />
+     <Compile Include="Assets\Scripts\Protected\Error.cs" />
+     <Compile Include="Assets\Scripts\Protected\TooltipAttribute.cs" />
+     <Compile Include="Assets\Scripts\Protected\TooltipDrawer.cs" />
+     <Compile Include="Assets\Scripts\Protected\UIElement.cs" />
+     <Compile Include="Assets\Scripts\UI\UIButton.cs" />
+     <Compile Include="Assets\Scripts\UI\UICrosshair.cs" />
+     <Compile Include="Assets\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\ScriptsMine\Base_WaterLikeMovement.cs" />
+     <Compile Include="Assets\ScriptsMine\CharAnim.cs" />
+     <Compile Include="Assets\ScriptsMine\EnemyAttacks\DamageOnContact.cs" />
+     <Compile Include="Assets\ScriptsMine\EnemyAttacks\ZoneAttacks.cs" />
+     <Compile Include="Assets\ScriptsMine\EnemyHealthBar.cs" />
+     <Compile Include="Assets\ScriptsMine\HealthBar.cs" />
+     <Compile Include="Assets\ScriptsMine\MyAnimator.cs" />
+     <Compile Include="Assets\ScriptsMine\PlayerPowers\ActivateUltra.cs" />
+     <Compile Include="Assets\ScriptsMine\PlayerPowers\PlayerController.cs" />
+     <Compile Include="Assets\ScriptsMine\PlayerPowers\PowerUp.cs" />
+     <Compile Include="Assets\ScriptsMine\PlayerPowers\RandomDrop.cs" />
+     <Compile Include="Assets\ScriptsMine\SceneSelect.cs" />
+     <Compile Include="Assets\ScriptsMine\SelfDeactivate.cs" />
+     <Compile Include="Assets\ScriptsMine\Transform\MovingPlatform.cs" />
+     <Compile Include="Assets\ScriptsMine\Transform\Rotate.cs" />
+     <Compile Include="Assets\ScriptsMine\Weapon\Attack.cs" />
+     <Compile Include="Assets\ScriptsMine\Weapon\WeaponAnim.cs" />
+     <Compile Include="Assets\ScriptsMine\WinLoseMessage.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/jielu/Documents/Git/2.5d-fighting-game-unity/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

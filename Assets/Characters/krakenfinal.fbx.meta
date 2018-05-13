@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: fa4cd1225e2f0084f95bd50f5c68d264
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: group10_pCylinder79
+    100002: joint1
+    100004: joint10
+    100006: joint10 1
+    100008: joint10 2
+    100010: joint10 3
+    100012: joint10 4
+    100014: joint10 5
+    100016: joint10 6
+    100018: joint10 7
+    100020: joint11
+    100022: joint11 1
+    100024: joint11 2
+    100026: joint11 3
+    100028: joint11 4
+    100030: joint11 5
+    100032: joint11 6
+    100034: joint11 7
+    100036: joint12
+    100038: joint13
+    100040: joint14
+    100042: joint15
+    100044: joint16
+    100046: joint17
+    100048: joint18
+    100050: joint19
+    100052: joint2
+    100054: joint2 1
+    100056: joint2 2
+    100058: joint2 3
+    100060: joint2 4
+    100062: joint2 5
+    100064: joint2 6
+    100066: joint2 7
+    100068: joint20
+    100070: joint21
+    100072: joint22
+    100074: joint23
+    100076: joint24
+    100078: joint25
+    100080: joint3
+    100082: joint3 1
+    100084: joint3 2
+    100086: joint3 3
+    100088: joint3 4
+    100090: joint3 5
+    100092: joint3 6
+    100094: joint3 7
+    100096: joint4
+    100098: joint4 1
+    100100: joint4 2
+    100102: joint4 3
+    100104: joint4 4
+    100106: joint4 5
+    100108: joint4 6
+    100110: joint4 7
+    100112: joint5
+    100114: joint5 1
+    100116: joint5 2
+    100118: joint5 3
+    100120: joint5 4
+    100122: joint5 5
+    100124: joint5 6
+    100126: joint5 7
+    100128: joint6
+    100130: joint6 1
+    100132: joint6 2
+    100134: joint6 3
+    100136: joint6 4
+    100138: joint6 5
+    100140: joint6 6
+    100142: joint6 7
+    100144: joint7
+    100146: joint7 1
+    100148: joint7 2
+    100150: joint7 3
+    100152: joint7 4
+    100154: joint7 5
+    100156: joint7 6
+    100158: joint7 7
+    100160: joint8
+    100162: joint8 1
+    100164: joint8 2
+    100166: joint8 3
+    100168: joint8 4
+    100170: joint8 5
+    100172: joint8 6
+    100174: joint8 7
+    100176: joint9
+    100178: joint9 1
+    100180: joint9 2
+    100182: joint9 3
+    100184: joint9 4
+    100186: joint9 5
+    100188: joint9 6
+    100190: joint9 7
+    100192: //RootNode
+    400000: group10_pCylinder79
+    400002: joint1
+    400004: joint10
+    400006: joint10 1
+    400008: joint10 2
+    400010: joint10 3
+    400012: joint10 4
+    400014: joint10 5
+    400016: joint10 6
+    400018: joint10 7
+    400020: joint11
+    400022: joint11 1
+    400024: joint11 2
+    400026: joint11 3
+    400028: joint11 4
+    400030: joint11 5
+    400032: joint11 6
+    400034: joint11 7
+    400036: joint12
+    400038: joint13
+    400040: joint14
+    400042: joint15
+    400044: joint16
+    400046: joint17
+    400048: joint18
+    400050: joint19
+    400052: joint2
+    400054: joint2 1
+    400056: joint2 2
+    400058: joint2 3
+    400060: joint2 4
+    400062: joint2 5
+    400064: joint2 6
+    400066: joint2 7
+    400068: joint20
+    400070: joint21
+    400072: joint22
+    400074: joint23
+    400076: joint24
+    400078: joint25
+    400080: joint3
+    400082: joint3 1
+    400084: joint3 2
+    400086: joint3 3
+    400088: joint3 4
+    400090: joint3 5
+    400092: joint3 6
+    400094: joint3 7
+    400096: joint4
+    400098: joint4 1
+    400100: joint4 2
+    400102: joint4 3
+    400104: joint4 4
+    400106: joint4 5
+    400108: joint4 6
+    400110: joint4 7
+    400112: joint5
+    400114: joint5 1
+    400116: joint5 2
+    400118: joint5 3
+    400120: joint5 4
+    400122: joint5 5
+    400124: joint5 6
+    400126: joint5 7
+    400128: joint6
+    400130: joint6 1
+    400132: joint6 2
+    400134: joint6 3
+    400136: joint6 4
+    400138: joint6 5
+    400140: joint6 6
+    400142: joint6 7
+    400144: joint7
+    400146: joint7 1
+    400148: joint7 2
+    400150: joint7 3
+    400152: joint7 4
+    400154: joint7 5
+    400156: joint7 6
+    400158: joint7 7
+    400160: joint8
+    400162: joint8 1
+    400164: joint8 2
+    400166: joint8 3
+    400168: joint8 4
+    400170: joint8 5
+    400172: joint8 6
+    400174: joint8 7
+    400176: joint9
+    400178: joint9 1
+    400180: joint9 2
+    400182: joint9 3
+    400184: joint9 4
+    400186: joint9 5
+    400188: joint9 6
+    400190: joint9 7
+    400192: //RootNode
+    4300000: group10_pCylinder79
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: group10_pCylinder79
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0199999996
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
